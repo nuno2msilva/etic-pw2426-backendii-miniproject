@@ -11,5 +11,3 @@ async def read_json(json_data: list[dict], chunk_size: int = 1000):
     """
     result = await process_json(json_data, chunk_size)
     return result
-
-
