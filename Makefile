@@ -1,5 +1,3 @@
-up: setup db-init
-
 setup:
 	docker compose up --build
 
